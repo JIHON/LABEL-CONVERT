@@ -10,3 +10,11 @@ The Train dataset of INRIAPerson as follows:
 ![image](https://github.com/JIHON/LABEL-CONVERT/blob/main/img/Inria.png)
 ## Yolov5ToCoco.py
 This file is used to convert YOLOV5 labels(txt) into COCO labels(json).The labels for YOLOV5 are stored in TXT files. The coco format data set stores all the training set labels in one JSON file and all the validation set labels in another JSON file.
+## UscToYolov5.py
+This file is used to convert datasets labels in USC format to YOLO V5 datasets labels. The dataset labels in USC format are XML files. The format of the content in the XML file is as follows:  
+![image](https://github.com/JIHON/LABEL-CONVERT/blob/main/img/uscxml.png)
+- Each image in the USC dataset corresponds to an XML label file in. BMP format  
+- x, y in the USC dataset label XML represent the coordinates of the upper-left corner of the target box, and height and width represent the height and width of the target box 
+- The XML labels and images of the USC training set are mixed together in a folder. as follows:  
+![image](https://github.com/JIHON/LABEL-CONVERT/blob/main/img/usc.png)
+
