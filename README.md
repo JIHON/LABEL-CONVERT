@@ -25,3 +25,8 @@ This file is used to convert Cityperson dataset labels to YOLO V5 data set label
 ![image](https://github.com/JIHON/LABEL-CONVERT/blob/main/img/cityperson.png)
 - The Cityperson datasets are labeled json files, and each graph corresponds to a JSON-formatted label file
 - The Cityperson dataset image is located in the leftImg8bit folder and the corresponding label is located in the gtBboxCityPersons folder  
+
+## VocToYoloV5.py
+This file is used to convert voc dataset labels into YOLO V5 data set labels. Voc dataset labels are XML files. The contents of the XML file are as follows:  
+![image](https://github.com/JIHON/LABEL-CONVERT/blob/main/img/vocxml.png)
+- Datasets in VOC format are labeled AS XML files, one for each graph
